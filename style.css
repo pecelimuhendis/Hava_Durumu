@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    color: #fff;
+    background-image: url('city.jpg');
+    /* arka plan resim linki */
+    background-position: center;
+    /* resim ortala  */
+    background-repeat: no-repeat;
+    /* arka plan tekrara No  */
+    background-size: cover;
+    /* resim durum ve tekrarı */
+    height: 100vh;
+    /* uzunluk */
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, .8);
+    height: 100vh;
+}
+
+.header {
+    padding: 100px 20px 30px 20px;
+    /* header yani yazıların olduğu alan 100px aşağıdan başlat */
+}
+
+.header h1 {
+    /* hava durumu yazısı özellikleri */
+    font-size: 50px;
+    color: #fbb034;
+    text-shadow: 1px 3px rgba(0, 0, 0, .8);
+}
+
+/* input giriş özellikleri */
+.header input {
+    width: 100%;
+    padding: 8px;
+    background: transparent;
+    /* arkaplan şefaf */
+    border: 0;
+    outline: 0;
+    /* 2px dashed red; fare tıkladığında görünen border özellikleri  */
+    border-bottom: 2px solid #fbb034;
+    /* cizgi özellikleri */
+    text-align: center;
+    /* yazı ortadan başlar */
+    font-size: 20px;
+    /* font büyüklüğü */
+    color: #f2f2f2;
+}
+
+.city {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0, 0, 0, .8);
+}
+
+.temp {
+font-size: 100px;
+font-weight: 700;
+margin-bottom: 15px;
+text-shadow: 1px 5px rgba(0, 0, 0, .1);
+}
+
+.desc {
+font-size: 25px;
+text-shadow: 1px 3px rgba(0, 0, 0, .8);
+margin-bottom: 10px;
+}
+
+.minmax {
+    font-size: 24px;
+    text-shadow: 1px 3px rgba(0, 0, 0, .8);
+}
